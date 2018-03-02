@@ -1,0 +1,21 @@
+body {
+	background-image: url('../img/vintage.png') !important;
+}
+
+.jumbotron {
+	background-color: deepskyblue;
+	color: white;
+}
+
+.panel-heading {
+	background-color: deepskyblue !important;
+	color: white;
+}
+
+.panel-body {
+	color:  #2b2b2b !important;
+}
+
+.navbar-brand {
+	
+}
