@@ -1,21 +1,50 @@
+
+
 body {
-	background-image: url('../img/vintage.png') !important;
+	background-image: url('../img/vintage.png');
 }
 
 .jumbotron {
-	background-color: deepskyblue;
-	color: white;
+	background-color: #4f0109; /* #4f0109 ocre */
+	color: #fffae5; /* #fffae5 marmol */
 }
 
 .panel-heading {
-	background-color: deepskyblue !important;
-	color: white;
+	background-color: #4f0109 !important;
+	color: #fffae5 !important;
 }
 
 .panel-body {
-	color:  #2b2b2b !important;
+	background-color:  #fffae5 !important; 
+	color: #4f0109 !important; 
+} /* quiero que sea transparente */
+
+.navbar {
+	background-color: #4f0109 !important;
 }
 
-.navbar-brand {
-	
+.navbar-brand:link, .navbar-brand:visited {
+	color: #fffae5 !important;
+
+}
+
+.navbar-brand:hover, .navbar-brand:active {
+	color: yellow !important;
+
+}
+
+#navbar li a:link, #navbar li a:visited {
+	color: white !important;
+}
+
+#navbar li a:hover, #navbar li a:active {
+	color: yellow !important;
+}
+
+/* .from-group, #cajita {
+	background-color: #fffae5;
+} */
+
+{
+
 }
